@@ -199,7 +199,7 @@ body > section {
 img.background-anime {
   position: absolute;
   padding-right: 3%;
-  margin-top: 5%;
+  /*margin-top: 5%;*/
   top: 50%;
   transform: translateY(-50%);
   right: 1%;
