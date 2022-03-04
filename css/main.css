@@ -695,9 +695,14 @@ a.accordion-toggle  i{
 
 .card {
   width: 300px;
-  margin-left: 5%;
+  margin-left: 2%;
   padding: 4px;
   display: inline-block;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
 }
 
 
