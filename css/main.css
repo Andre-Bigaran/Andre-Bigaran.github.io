@@ -17,6 +17,11 @@ body {
   color: #fff;
 }
 
+.centerImg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .downloadButton {
   padding: 5px 12px;
   border-radius: 20px;
