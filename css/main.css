@@ -691,6 +691,11 @@ a.accordion-toggle  i{
   color:#4e4e4e;
 }
 
+.carousel-slide {
+  display: block;
+  padding-left: 50%;
+}
+
 .skill_text {
   display: block;
   margin-bottom: 60px;
