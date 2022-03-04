@@ -696,6 +696,13 @@ a.accordion-toggle  i{
   color:#4e4e4e;
 }
 
+.card {
+  width: 300px;
+  margin-left: 5%;
+  padding: 4px;
+}
+
+
 .left-team {
   text-align: left;
 }
