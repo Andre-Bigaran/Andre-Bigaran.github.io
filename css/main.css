@@ -700,6 +700,7 @@ a.accordion-toggle  i{
   width: 300px;
   margin-left: 5%;
   padding: 4px;
+  display: inline-block;
 }
 
 
