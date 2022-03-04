@@ -137,8 +137,9 @@ hr {
 }
 
 .btn-primary:hover, 
-.btn-primary:focus{
-  background: #6307bf;
+.btn-primary:focus {
+  background: #fff;
+  color:#6307bf;
   outline: none;
   box-shadow: none;
 } 
@@ -695,7 +696,7 @@ a.accordion-toggle  i{
 
 .card {
   width: 300px;
-  margin-left: 2%;
+  margin: 2%;
   padding: 4px;
   display: inline-block;
 }
@@ -703,6 +704,7 @@ a.accordion-toggle  i{
 .card-title {
   text-align: center;
   font-weight: bold;
+  color: #000;
 }
 
 
