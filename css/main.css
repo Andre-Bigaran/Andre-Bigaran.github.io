@@ -696,6 +696,14 @@ a.accordion-toggle  i{
   color:#4e4e4e;
 }
 
+.left-team {
+  text-align: left;
+}
+
+.right-team {
+  text-align: right;
+}
+
 .skill_text {
   display: block;
   margin-bottom: 60px;
