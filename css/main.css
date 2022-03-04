@@ -138,11 +138,30 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus {
-  background: #fff;
-  color:#6307bf;
+  background: 6307bf;
+  color:#ffffff;
   outline: none;
   box-shadow: none;
 } 
+
+.btn-secondary {
+  padding: 8px 20px;
+  background: #fff;
+  border-style: solid;
+  color:#6307bf;
+  border-radius: 20px;
+  border:none;
+  margin-top: 10px;
+}
+
+.btn-secondary:hover, 
+.btn-secondary:focus {
+  background: #6307bf;
+  color:#ffffff;
+  outline: none;
+  box-shadow: none;
+} 
+
 
 .btn-transparent {
   border: 3px solid #fff;
