@@ -144,7 +144,7 @@ hr {
   box-shadow: none;
 } 
 
-.btn-secondary {
+.btn-nav {
   padding: 8px 20px;
   background: #fff;
   border-style: solid;
@@ -154,8 +154,8 @@ hr {
   margin-top: 10px;
 }
 
-.btn-secondary:hover, 
-.btn-secondary:focus {
+.btn-nav:hover, 
+.btn-nav:focus {
   background: #6307bf;
   color:#ffffff;
   outline: none;
