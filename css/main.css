@@ -147,8 +147,10 @@ hr {
 .btn-nav {
   padding: 8px 20px;
   background: #fff;
-  border-style: solid;
+  border-style: solid!important;
+  border-width: 1px!important;
   color:#6307bf;
+  display: inline-flex;
   border-radius: 20px;
   border:none;
   margin-top: 10px;
