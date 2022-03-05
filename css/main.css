@@ -706,6 +706,14 @@ a.accordion-toggle  i{
 ********* About Us Page CSS ******
 **************************/
 
+.about-container {
+  margin-top: 10%;
+}
+
+.about-sub {
+  margin-top: 4%;
+}
+
 .about-us {
   margin-top: 110px;
   margin-bottom: -110px;
