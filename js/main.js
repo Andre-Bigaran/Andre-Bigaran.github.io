@@ -72,10 +72,10 @@ jQuery(function($) {'use strict',
 $(function(){
 	$('section#content article div.btn').click(function(){
 		$(this).siblings('p.box').slideToggle();	
-		if($(this).text() == "Learn more"){
-			$(this).text("Ocultar");
-		}else{
+		if($(this).text() == "Ocultar"){
 			$(this).text("Learn more");
+		}else{
+			$(this).text("Ocultar");
 		}
 	});
 });
