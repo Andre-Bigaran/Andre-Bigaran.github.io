@@ -106,6 +106,11 @@ h4{
   font-size: 16px;
 }
 
+p {
+  margin-top: 2%!important;
+  text-align: justify!important;
+}
+
 a {
   color: #fff;
   -webkit-transition: color 300ms, background-color 300ms;
@@ -128,7 +133,7 @@ hr {
 }
 
 .btn-primary {
-  /*padding: 8px 20px;*/
+  padding: 8px 20px;
   background: #fff;
   color:#6307bf;
   border-radius: 20px;
@@ -150,10 +155,12 @@ hr {
   border-style: solid!important;
   border-width: 1px!important;
   color:#6307bf;
-  display: inline-flex;
+  display: inline-block;
   border-radius: 20px;
   border:none;
   margin-top: 10px;
+  width: 100%;
+  text-align: center;
 }
 
 .btn-nav:hover, 
