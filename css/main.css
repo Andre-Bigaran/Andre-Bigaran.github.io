@@ -753,7 +753,7 @@ p.box {
 }
 
 .text-about {
-  text-align: center;
+  text-align: center!important;
   color: #fff;
   font-size: 16px;
   line-height: 24px;
