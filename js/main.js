@@ -70,27 +70,23 @@ jQuery(function($) {'use strict',
 });
 
 
-function toggleClock() {
-    // get the clock
-    var myClock = document.getElementById('clock');
+var visibilidade = true; //Variável que vai manipular o botão Exibir/ocultar
 
-    // get the current value of the clock's display property
-    var displaySetting = myClock.style.display;
+function exibir() {
+	document.getElementById("dvConteudo").style.display = "block";
+}
 
-    // also get the clock button, so we can change what it says
-    var clockButton = document.getElementById('clockButton');
+function ocultar() {
+	document.getElementById("dvConteudo").style.display = "none";
+}
 
-    // now toggle the clock and the button text, depending on current state
-    if (displaySetting == 'block') {
-      // clock is visible. hide it
-      myClock.style.display = 'none';
-      // change button text
-      clockButton.innerHTML = 'Show clock';
-    }
-    else {
-      // clock is hidden. show it
-      myClock.style.display = 'block';
-      // change button text
-      clockButton.innerHTML = 'Hide clock';
-    }
-  }
+function ocultarExibir() { // Quando clicar no botão.
+
+	if (visibilidade) {//Se a variável visibilidade for igual a true, então...
+		document.getElementById("dvConteudo").style.display = "none";//Ocultamos a div
+		visibilidade = false;//alteramos o valor da variável para falso.
+	} else {//ou se a variável estiver com o valor false..
+		document.getElementById("dvConteudo").style.display = "block";//Exibimos a div..
+		visibilidade = true;//Alteramos o valor da variável para true.
+	}
+}
