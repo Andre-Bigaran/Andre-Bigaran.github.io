@@ -747,6 +747,11 @@ a.accordion-toggle  i{
   display: none;
 }
 
+p.box {
+  text-align: justify;
+  margin-top: 8%;
+}
+
 
 .left-team {
   text-align: left;
