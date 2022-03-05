@@ -1369,5 +1369,5 @@ shortcodes page css
   bottom: 0.5%;
   width: 100%;
   color: white;
-  text-align: center;
+  text-align: center!important;
 }
