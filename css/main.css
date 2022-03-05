@@ -67,7 +67,7 @@ body {
   padding-top: 4%;
   padding-right: 10%;
   padding-left: 10%;
-  position: fixed;
+  position: absolute;
 }
 
 .white-text {
