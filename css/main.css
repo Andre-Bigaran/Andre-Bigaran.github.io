@@ -749,9 +749,18 @@ a.accordion-toggle  i{
 
 p.box {
   text-align: justify;
-  margin-top: 8%;
+  margin-top: 8%!important;
 }
 
+.text-about {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 .left-team {
   text-align: left;
