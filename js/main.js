@@ -73,9 +73,9 @@ $(function(){
 	$('section#content article div.btn').click(function(){
 		$(this).siblings('p.box').slideToggle();	
 		if($(this).text() == "Learn more"){
-			$(this).text("Learn more");
+			$(this).text("Know less");
 		}else{
-			$(this).text("know less");
+			$(this).text("Learn more");
 		}
 	});
 });
