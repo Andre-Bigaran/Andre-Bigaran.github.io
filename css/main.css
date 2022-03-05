@@ -65,8 +65,8 @@ body {
 
 .container-fluid {
   padding-top: 4%;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 15%;
+  padding-left: 15%;
   position: absolute;
 }
 
@@ -207,6 +207,8 @@ body > section {
 .center {
   text-align: center;
   padding-bottom: 55px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .scaleIn {
