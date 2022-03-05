@@ -727,6 +727,10 @@ a.accordion-toggle  i{
   color: #000;
 }
 
+.box {
+  display: none;
+}
+
 
 .left-team {
   text-align: left;
