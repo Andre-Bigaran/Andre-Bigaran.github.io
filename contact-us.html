@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Blog Single | Corlate</title>
-    
+
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -14,18 +15,20 @@
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    
+
 
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
+</head>
+<!--/head-->
 
 <body>
 
     <header id="header">
+
          <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -45,7 +48,7 @@
                       <li><a href="1periodo.html">1º Período</a></li>
                     </ul>
 		  </li>
-                   <!--
+ 
                     <li class="nav-item dropdown navbar-inverse">
                         <a class="nav-link dropdown-toggle" href="blog-item.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Blog
@@ -59,88 +62,100 @@
                     </li>
                   -->
 
-                  <li class="navbar-inverse navbar-nav active">
-                    <a class="nav-link active" href="contact-us.html ">Contact</a>
-                  </li>
-                </ul>
-              </div>
+                        <li class="navbar-inverse navbar-nav active">
+                            <a class="nav-link active" href="contact-us.html ">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        <!-- </nav>-->
+            <!-- </nav>-->
 
-    </header><!--/header-->
+    </header>
+    <!--/header-->
 
     <section id="contact-info">
-        <div class="center">                
+        <div class="center">
             <h2>How to Reach Us?</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </div>
-    </section>  <!--/gmap_area -->
+    </section>
+    <!--/gmap_area -->
 
     <section id="contact-page">
         <div class="container">
-            <div class="center">        
-                <h2>Drop Your Message</h2>
+            <div class="center">
+                <h2>Leave Your Message</h2>
                 <p class="lead">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div> 
-            <div class="row contact-wrap"> 
-                <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+            </div>
+
+
+            <form id="main-contact-form" class="contact-form center-form" name="contact-form" method="post" action="sendemail.php">
+                <div class="row contact-wrap">
+                    <div class="status alert alert-success" style="display: none"></div>
+
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
                             <label>Name *</label>
-                            <input type="text" name="name" class="form-control" required="required">
+                            <input type="text" name="name" class="form-control" required="required" placeholder="Your name">
                         </div>
                         <div class="form-group">
                             <label>Email *</label>
-                            <input type="email" name="email" class="form-control" required="required">
+                            <input type="email" name="email" class="form-control" required="required" placeholder="Your email">
                         </div>
                         <div class="form-group">
                             <label>Phone</label>
-                            <input type="number" class="form-control">
+                            <input type="number" class="form-control" placeholder="Your Phone">
                         </div>
                         <div class="form-group">
                             <label>Company Name</label>
-                            <input type="text" class="form-control">
-                        </div>                        
-                    </div>
-                    <div class="col-sm-5">
+                            <input type="text" class="form-control" placeholder="Your Company">
+                        </div>
                         <div class="form-group">
                             <label>Subject *</label>
-                            <input type="text" name="subject" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Message *</label>
-                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
-                        </div>                        
-                        <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>
+                            <input type="text" name="subject" class="form-control" required="required" placeholder="Subject">
                         </div>
                     </div>
-                </form> 
-            </div><!--/.row-->
-        </div><!--/.container-->
-    </section><!--/#contact-page-->
+
+                    <div class="column message-contact">
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea name="message" id="message" required="required" class="form-control"
+                                rows="8" placeholder="Your message" ></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required" style="float: right; margin-top: 3%;">Submit Message</button>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+
+<!--/.container-->
+
+    </section>
+    <!--/#contact-page-->
 
     <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2013 All Rights Reserved.
+                    &copy; 2022 Alls/Unifil Rights Reserved.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-    </footer><!--/#footer-->
+    </footer>
+    <!--/#footer-->
 
     <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>   
+    <script src="js/respond.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
@@ -148,4 +163,5 @@
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
 </body>
+
 </html>
