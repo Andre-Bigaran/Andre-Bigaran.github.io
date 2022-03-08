@@ -898,6 +898,16 @@ p.box {
   padding-bottom: 0;
 }
 
+.portfolio-accordion {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.accordion-item {
+  margin-bottom: 1%;
+}
+
+
 
 .portfolio-items, 
 .portfolio-filter {
