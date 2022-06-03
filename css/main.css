@@ -908,6 +908,11 @@ p.box {
   border: none; !important
 }
 
+.accordion-button {
+   color: #fff; !important
+   background-color: #050b18; !important
+}
+
 .accordion-button-sub {
   background: #050b18;
 }
