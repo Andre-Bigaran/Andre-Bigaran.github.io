@@ -565,6 +565,10 @@ img.background-anime {
   margin-bottom: 1px;
 }
 
+.accordion-body {
+  background: #050b18;
+}
+
 .panel-default{
   border-color: transparent;
 }
