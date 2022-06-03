@@ -562,7 +562,7 @@ img.background-anime {
 }
 
 .accordion h2{
-  margin-bottom: 25px;
+  margin-bottom: -2.5px;
 }
 
 .panel-default{
@@ -905,7 +905,6 @@ p.box {
 
 .accordion-item {
   background-color: #6307bf;
-  margin-bottom: -2.5%;
 }
 
 .accordion-button-sub {
