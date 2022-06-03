@@ -7,7 +7,7 @@
 
 body {
   background: #050b18;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;b
   color:#4e4e4e;
   line-height: 22px;
   resize: both;
@@ -910,7 +910,7 @@ p.box {
 
 .accordion-button {
    color: #fff; !important
-   background-color: #050b18; !important
+     background-color: #050b18; !important
 }
 
 .accordion-button-sub {
