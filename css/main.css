@@ -905,12 +905,12 @@ p.box {
 
 .accordion-item {
   background-color: #6307bf;
-  border: none; !important
+  border: none !important;
 }
 
 .accordion-button {
-   color: #fff; !important
-     background-color: #050b18; !important
+   color: #fff;
+   background: #050b18 !important;
 }
 
 .accordion-button-sub {
