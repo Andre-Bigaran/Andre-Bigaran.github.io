@@ -905,6 +905,7 @@ p.box {
 
 .accordion-item {
   background-color: #6307bf;
+  border: none; !important
 }
 
 .accordion-button-sub {
