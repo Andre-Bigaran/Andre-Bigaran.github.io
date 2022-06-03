@@ -904,7 +904,8 @@ p.box {
 }
 
 .accordion-item {
-  margin-bottom: 1%;
+  background-color: #6307bf;
+  margin-bottom: -2.5%;
 }
 
 .accordion-button-sub {
