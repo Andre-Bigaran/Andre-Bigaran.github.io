@@ -7,18 +7,11 @@
 
 body {
   background: #050b18;
-  align-items: center;
   font-family: 'Montserrat', sans-serif;
   color:#4e4e4e;
   line-height: 22px;
   resize: both;
-  height: 100vh;
-  margin: 0;
-  flex-wrap: wrap;
-  justify-content: center;
-  display: flex;
 }
-
 
 
 @keyframes caret {
