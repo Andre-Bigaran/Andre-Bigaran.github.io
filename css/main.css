@@ -78,6 +78,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.portfolio {
+  background-image: url(/images/portfolio.svg );
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .profilePic {
   position: relative;
   left: 10%;
