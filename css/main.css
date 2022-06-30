@@ -1447,6 +1447,9 @@ shortcodes page css
   text-align: center!important;
 }
 
+.img-responsive {
+  width: 100%;
+}
 
 
 
