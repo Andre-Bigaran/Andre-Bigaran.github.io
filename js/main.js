@@ -149,3 +149,9 @@ document.addEventListener('DOMContentLoaded',function(event){
 		}
 	});
 });
+
+$(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 6000
+    })
+  });
