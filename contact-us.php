@@ -24,36 +24,33 @@
 
 <header id="header">
 
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <img src="/images/Logo Branca.svg" width="200" alt="">
-      <img src="/images/logoUnifil.png" height="50" alt="">
-    </a>
-    <div class="collapse navbar-collapse navbar-inverse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item navbar-inverse">
-          <a class="nav-link" href="about-us.html">About us</a>
-        </li>
-        <li class="nav-item navbar-inverse">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item navbar-inverse">
-          <a class="nav-link" href="portfolio.html">Contratar</a>
-        </li>
-        <li class="navbar-inverse navbar-nav active">
-          <a class="nav-link active" href="contact-us.html ">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <!-- </nav>-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">
+          <img src="/images/Logo Branca.svg" width="200" alt="">
+          <img src="/images/logoUnifil.png" height="50" alt="">
+        </a>
+        <div class="collapse navbar-collapse navbar-inverse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.php">Home</a>
+            </li>
+            <li class="nav-item navbar-inverse">
+              <a class="nav-link" href="about-us.php">About us</a>
+            </li>
+            <li class="nav-item navbar-inverse">
+              <a class="nav-link" href="portfolio.php">Portfolio</a>
+            </li>
+            <li class="navbar-inverse navbar-nav active">
+              <a class="nav-link active" href="contact-us.php ">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- </nav>-->
 
-</header>
-<!--/header-->
+  </header>
+  <!--/header-->
 
 
     <!--/gmap_area -->
